@@ -1,5 +1,6 @@
 # Download and install requests (module for python)
 # If you know your way around git, Install it yourself.
+# 	Here is the url: https://github.com/kennethreitz/requests.git
 # Else run this in terminal using instructions in README.md
 
 cd ~/Sub-Downloader
