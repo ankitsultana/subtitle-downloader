@@ -15,7 +15,7 @@ A great way to download Subtitles in just 3 clicks. After installing it you will
       git clone http://github.com/bk2dcradle/Sub-Downloader
     ```
     
-  2. Install [requests](https://github.com/kennethreitz/requests.git) for python either by running the ```install.sh``` script or do it yourself. In the latter case you don't need to run ```install.sh```.
+  2. Install [requests](https://github.com/kennethreitz/requests.git) for python either by running the ```install.sh``` script or do it yourself. **In the latter case you don't need to run** ```install.sh```.
      To run ```install.sh``` simply copy-paste this in terminal:
      ```
       cd ~/Sub-Downloader
