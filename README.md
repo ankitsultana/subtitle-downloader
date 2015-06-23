@@ -22,15 +22,7 @@ A great way to download Subtitles in just 3 clicks. After installing it you will
       chmod +x install.sh
       ./install.sh
      ```
-  3. Finally create a ```service``` in ```Automator```. Its really painless. Copy paste the following code as shown in [wiki](https://github.com/bk2dcradle/Sub-Downloader/wiki/Winding-up-by-creating-a-Service):
-  
-  ```
-    cd ~/Sub-Downloader
-    for f in "$@"
-    do
-	    python main_script.py "$f"
-    done
-  ```
+  3. Finally create a ```service``` in ```Automator```. Its really painless. Head over to the [wiki](https://github.com/bk2dcradle/Sub-Downloader/wiki/Winding-up-by-creating-a-Service):
 
 ## Files and their Roles
 ### 1. hash_video.py
