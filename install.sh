@@ -26,7 +26,7 @@ else
 		cd ~
 		git clone git://github.com/kennethreitz/requests.git
 		cd ~/requests
-		python setup.py install
+		sudo python setup.py install
 		cd ~/Sub-Downloader
 	else
 		echo "You chose to not install requests. Run this script again if you ever want to install it."
