@@ -25,6 +25,7 @@ else
 		done
 		cd ~
 		git clone git://github.com/kennethreitz/requests.git
+		cd ~/requests
 		python setup.py install
 		cd ~/Sub-Downloader
 	else
