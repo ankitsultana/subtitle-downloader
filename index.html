@@ -52,14 +52,25 @@
 <p>
 Sub-Downloader is a Mac OS X <code>service</code> by means of which you can download subtitles just by right clicking on a video file and going to <code>services</code> and then <code>Get Subtitles</code>.
 Subtitles will be downloaded subject to their availabity on <a href="http://thesubdb.com/">thesubdb</a>, since the script uses its API.
+Final result is something like:
 </p>
 
 <iframe width="510" height="360" src="https://www.youtube.com/embed/liR8XFMTtA0" frameborder="0" allowfullscreen></iframe>
 
 <h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h3>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and click 'Continue to layouts' to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved.</p>
+<p>
+Just download the zip file, unzip it, place the so created folder in your home directory. Then run this is terminal:<br>
+<center>
+  <code>
+  	cd ~/Sub-Downloader<br>
+  	chmod +x install.sh<br>
+  	./install.sh<br>
+  </code>
+</center>
+Finally create a <code>service</code> in <code>automator</code>
+</p>
 
 <h3>
 <a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating pages manually</h3>
@@ -91,6 +102,6 @@ Subtitles will be downloaded subject to their availabity on <a href="http://thes
 
     </div>
 
-    
+
   </body>
 </html>
