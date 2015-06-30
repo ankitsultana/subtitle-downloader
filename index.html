@@ -61,37 +61,52 @@ Final result is something like:
 <a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h3>
 
 <p>
-Just download the zip file, unzip it, place the so created folder in your home directory. Then run this is terminal:<br>
+Just download the zip file, unzip it, place the so created folder in your <strong>home directory</strong>. Then run this is terminal:<br>
 <script src="https://gist.github.com/bk2dcradle/1fe7b9305aca4d87820b.js"></script>
-Finally create a <code>service</code> in <code>automator</code>
+What this script does is simply install <strong><a href="https://github.com/kennethreitz/requests">requests</a></strong>
+for Python. If you have previously installed it, skip running the script.
+Finally create a <code>service</code> in <code>automator</code>. Head over to the
+<a href="https://github.com/bk2dcradle/Sub-Downloader/wiki/Winding-up-by-creating-a-Service">wiki</a>
+and follow the instructions. It will only take a few minutes!!
+
 </p>
 
 <h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>Creating pages manually</h3>
+<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>A look at the scripts</h3>
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+<p>
+  The scripts used for downloading the subtitles are written in <strong>Python</strong>.
+  The script that is <i>called</i> by the <i>service</i> is <code>main_script.py</code>.
+  What this script does is take a path to a movie file as an argument and just download
+  the subtitles for that movie in the same directory in which it is located.
+  <code>meta_extract.py</code> simply extracts file name, extension and directory of
+  given file from its path. <code>hash_video</code> simply calls a hash function provided
+  by <strong><a href="http://thesubdb.com/">thesubdb</a></strong> whose <strong>API</strong>
+  the script uses.
+</p>
 
 <h3>
 <a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<p>
+  This project was created and is maintained by <a href="http://github.com/bk2dcradle">Ankit Sultana</a>
+</p>
 
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<p>Having trouble with Sub-Downloader? Create a new <a href="https://github.com/bk2dcradle/Sub-Downloader/issues">issue</a>. <a href="https://help.github.com/pages"></p>
       </section>
 
       <footer>
         <span class="ribbon-outer">
           <span class="ribbon-inner">
-            <p>this project by <a href="https://github.com/bk2dcradle">bk2dcradle</a> can be found on <a href="https://github.com/bk2dcradle/Sub-Downloader">GitHub</a></p>
           </span>
           <span class="left-tail"></span>
           <span class="right-tail"></span>
         </span>
-        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
-        <span class="octocat"></span>
+        <p>Merlot</p>
+        <a href="http://github.com/bk2dcradle/"><span class="octocat"></span></a>
       </footer>
 
     </div>
