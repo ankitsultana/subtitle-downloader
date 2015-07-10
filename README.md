@@ -1,4 +1,4 @@
-# Sub-Downloader for OS X
+# Sub-Downloader for OS X (Under Maintenance -- Check back tomorrow)
 
 A great way to download Subtitles in just 3 clicks. After installing it you will be able to do something like this:
 
