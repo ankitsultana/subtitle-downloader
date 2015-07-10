@@ -60,7 +60,7 @@
 				<dict>
 					<key>COMMAND_STRING</key>
 					<string>#cd /Users/ankitsultana/Desktop/Desk/CS/Programming/Python/sentdex/thesubdb/Project
-cd ~/GitHub/Sub-Downloader
+cd ~/Sub-Downloader
 for f in "$@"
 do
 	#echo $f
