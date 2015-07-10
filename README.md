@@ -1,6 +1,6 @@
 # Sub-Downloader for OS X 
 
-**Last Update:** Made creation of `services` automated. Now it `install.sh` does it all.
+**Last Update:** Made creation of `services` automated. Now `install.sh` does it all.
 
 A great way to download Subtitles in just 3 clicks. After installing it you will be able to do something like this:
 
