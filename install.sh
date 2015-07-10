@@ -34,4 +34,4 @@ else
 fi
 
 echo "Moving Get Subtitles.workflow" >> logs.txt
-mv "~/Sub-Downloader/Get Subtitles.workflow" "~/Library/Services/"
+mv ~/Sub-Downloader/Get\ Subtitles.workflow ~/Library/Services/
