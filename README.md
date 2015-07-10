@@ -1,4 +1,4 @@
-# Sub-Downloader for OS X 
+# Sub-Downloader for OS X (Updating README... Check back in an hour)
 
 **Last Update:** Made creation of `services` automated. Now `install.sh` does it all.
 
