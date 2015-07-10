@@ -31,5 +31,7 @@ else
 	else
 		echo "You chose to not install requests. Run this script again if you ever want to install it."
 	fi
-	
 fi
+
+echo "Moving Get Subtitles.workflow" >> logs.txt
+mv "~/Sub-Downloader/Get Subtitles.workflow" "~/Library/Services/"
