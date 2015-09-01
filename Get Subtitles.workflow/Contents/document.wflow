@@ -59,11 +59,10 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>#cd /Users/ankitsultana/Desktop/Desk/CS/Programming/Python/sentdex/thesubdb/Project
+					<string>
 cd ~/Sub-Downloader
 for f in "$@"
 do
-	#echo $f
 	python main_script.py "$f"
 done</string>
 					<key>CheckedForUserDefaultShell</key>
