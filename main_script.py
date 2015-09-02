@@ -45,6 +45,9 @@ if __name__ == '__main__':
             dir_name = meta_extract.get_meta(sys.argv[1], 'dir')
             file_name = meta_extract.get_meta(sys.argv[1], 'file')
             exten = meta_extract.get_meta(sys.argv[1], 'ext')
+            logger.info("File Name: " + file_name)
+            logger.info("Directory: " + dir_name)
+            logger.info("Extension: " + exten)
             logger.info('Extracted Meta Data')
         except Exception, e:
             logger.exception(e)
