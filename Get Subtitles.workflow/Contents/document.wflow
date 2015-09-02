@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>409.1</string>
+	<string>409.2</string>
 	<key>AMApplicationVersion</key>
 	<string>2.5</string>
 	<key>AMDocumentVersion</key>
@@ -59,8 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>
-cd ~/Sub-Downloader
+					<string>cd ~/Sub-Downloader
 for f in "$@"
 do
 	python main_script.py "$f"
