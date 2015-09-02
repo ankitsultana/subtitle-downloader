@@ -34,10 +34,7 @@ if __name__ == '__main__':
 		sub_name = open(file_name+'.srt', 'wb')
 		sub_name.write(content.encode('ascii', 'ignore'))
 		sub_name.close()
-		notifier.notify("Downloaded")
 	elif str(resp.status_code) == '404':
 		print "Snap! Video not found"
-		notifier.notify("Not Available")
 	else:
 		print "Bad Request!!"
-		notifier.notify("Error")
