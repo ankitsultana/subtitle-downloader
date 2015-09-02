@@ -12,6 +12,7 @@ python -c "import requests" &> logs.txt
 
 if [ $? -eq 0 ]; then
 	echo "Requests is installed" >> logs.txt
+	echo "You Have Requests already installed"
 else
 	echo "Requests not installed" >> logs.txt
 	echo "You don't have Requests already installed, Do you want to install it?(y/n)"
@@ -28,10 +29,12 @@ else
 		cd ~/requests
 		sudo python setup.py install
 		cd ~/Sub-Downloader
+		echo "Requests installed Successfully" >> logs.txt
 	else
 		echo "You chose to not install requests. Run this script again if you ever want to install it."
 	fi
 fi
 
 echo "Moving Get Subtitles.workflow" >> logs.txt
+echo "Moving Get Subtitles.workflow to ~/Libary/Services/"
 mv ~/Sub-Downloader/Get\ Subtitles.workflow ~/Library/Services/
