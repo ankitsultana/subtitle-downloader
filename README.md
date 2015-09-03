@@ -1,6 +1,6 @@
 # Sub-Downloader for OS X
 
-**Last Update on 10 July 2015:** Made creation of `services` automated. Now `install.sh` does it all.
+**Last Update on 2 September 2015:** Added logging module to main_script, Now logs are written to script.log in the root Sub-Downloader directory.
 
 A great way to download Subtitles in just 3 clicks. After installing it you will be able to do something like this:
 
