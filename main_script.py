@@ -12,6 +12,14 @@ handler.setFormatter(formatter)
 
 logger.addHandler(handler)
 
+try:
+    import sys
+except ImportError, e:
+    logger.error('Cannot import sys')
+    logger.exception(e)
+
+logger.info(sys.version)
+
 logger.info('Trying Imports')
 
 try:
