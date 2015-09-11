@@ -44,6 +44,7 @@ try:
 except ImportError, e:
     logger.error('Cannot Import Requests')
     logger.exception(e)
+    logger.error(sys.path)
 
 if __name__ == '__main__':
 	base_url = 'http://api.thesubdb.com/'
