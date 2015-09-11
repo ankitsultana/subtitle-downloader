@@ -35,6 +35,7 @@ try:
     logger.info('Imported requests')
 except ImportError, e:
     logger.error('Cannot Import Requests')
+    logger.exception(e)
 
 if __name__ == '__main__':
 	base_url = 'http://api.thesubdb.com/'
