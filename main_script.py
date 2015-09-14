@@ -100,4 +100,4 @@ if __name__ == '__main__':
         logger.error('Subtitles not available in Database')
     else:
         logger.error('Bad Request!')
-        logger.info('============================')
+    logger.info('============================')
