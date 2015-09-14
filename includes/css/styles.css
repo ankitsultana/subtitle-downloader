@@ -1,0 +1,314 @@
+/* --------------------------------------
+   Custom 
+   -------------------------------------- */
+
+.title-sub-title {
+	margin-top: 5px;  
+}
+
+.topic {
+	margin-top: 10px;
+}
+
+#last-content-left {
+	border-right: 1px solid #333;  
+	text-align: center;
+}
+
+#last-content-right {
+	text-align: center;
+}
+
+a:hover{
+	text-decoration: none;  
+}
+
+html, body {
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.list-group-item: hover {
+	background-color: #46B8DA;
+}
+
+.dropdown {
+	margin-right: 10px;
+}
+
+/* --------------------------------------
+   Topic Page
+   -------------------------------------- */
+
+.page-title > h2 {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 35px;
+}
+
+.page-title > h3 {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-family: 'Lora', sans-serif;
+}
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#features {
+	text-align: center;
+}
+
+#features img {
+	margin: 0 0 20px;
+}
+
+#inputMessage {
+	margin-bottom: 15px;
+}
+
+footer {
+	background: #333;
+	color: #eee;
+	font-size: 11px;
+	padding: 20px;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+/*	Make font awesome.. (tighter) */
+body {
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizelegibility;
+}
+
+.well .page-header {
+	margin-top: 0;
+}
+
+.well .page-header h1{
+	margin-top: 0;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   
+.navbar {
+	margin-bottom: 0;  
+}
+
+#searchInput {
+	width: 200px;
+}
+
+.navbar-brand {
+	padding-top: 15px;  
+}
+
+/* --------------------------------------
+	 Blog-Header
+   -------------------------------------- */
+
+.jumbotron {
+	background-color: #73AFAD;
+	margin-bottom: 30px;
+}
+
+.jumbotron > p {
+	padding-left: 10%;  
+	padding-right: 10%;  
+	color: #F8F8F8;
+}
+
+.jumbotron > h1 {
+	padding-left: 10%;
+	padding-right: 10%;  
+	color: #F8F8F8;
+}
+
+/* --------------------------------------
+	 Main Content
+   -------------------------------------- */
+
+body {
+	font-family: 'Lora', 'Times New Roman', serif;  
+	font-size: 20px;
+	color: #404040;
+}
+
+nav > a {
+	font-family: monospace, 'Lora', 'Open Sans', 'Times New Roman', serif;
+	font-size: 20px;
+	color: #000FFF;
+}
+
+#main-content > h1, 
+h2,
+h3, 
+h4, 
+h5, 
+h6 {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 800;
+}
+
+a {
+	color: #404040;  
+}
+
+#main-content > p {
+	padding-top: 3px;  
+}
+
+.post-preview > a:hover,
+.post-preview > a:focus {
+	text-decoration: none;
+	color: #0085a1;
+}
+
+.post-preview > a > .post-title {
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.post-preview > a > .post-subtitle {
+	margin: 0;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+.post-meta {
+	color: #808080;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.post-meta > a {
+	text-decoration: none;
+	color: #404040;
+}
+
+.post-meta > a:hover,
+.post-meta > a:focus {
+	color: #0085a1;
+	text-decoration: underline;
+}
+
+.pager {
+	margin: 20px 0 0;  
+}
+
+.pager li > a,
+.pager li > span {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 800;
+	letter-spacing :1px;
+	padding: 15px 25px;
+	background-color: white;
+	border-radius: 0;
+}
+
+.pager li > a:hover,
+.pager li > a:focus {
+	color: white;
+	background-color: #0085a1;
+	border: 1px solid #0085a1;
+}
+
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+	color: #808080;
+	background-color: #404040;
+	cursor: not-allowed;
+}
+
+#pager-container {
+	margin-bottom: 30px;  
+	/* background-color: #000; */
+	padding-bottom: 20px;
+	text-align: center;
+	padding-right: 40px;
+}
+
+/* --------------------------------------
+	 Footer
+   -------------------------------------- */
+
+footer {
+	margin-top: 30px;  
+}
+
+footer a {
+	font-size: 11px;
+	color: #4185C1;
+	background: #333;
+	font-family: Georgia;
+}
+
+footer a:hover {
+	text-decoration: underline;  
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.alert {
+	margin-top: 20px;
+	display: none;
+}
+
+.well {
+	margin: 20px 0;
+}
+
+.tabbable img.thumbnail {
+	margin: 0 20px 10px 0;
+}
+
+.thumbnails {
+	margin: 20px 0;
+}
+
+.thumbnail {
+	position: relative;
+}
+
+.thumbnail h3 {
+	font-size: 16px;
+	margin: 0 0 10px;
+	line-height: 20px;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	footer {
+		text-align: center;
+	}
+
+	/* Custom */
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}

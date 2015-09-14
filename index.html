@@ -1,106 +1,102 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=640">
+	<head>
+		<!-- Hand Coded by Ankit Sultana -->
+		<title>Convoluted Ramblings</title>
+		<meta name="Convoluted Ramblings" content="Educational Blog">
 
-    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <script type="text/javascript" src="javascripts/modernizr.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('#main_content').headsmart()
-      })
-    </script>
-    <title>Sub-downloader by bk2dcradle</title>
-  </head>
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 
-  <body>
-    <a id="forkme_banner" href="https://github.com/bk2dcradle/Sub-Downloader">View on GitHub</a>
-    <div class="shell">
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
 
-      <header>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-            <h1>Sub-downloader</h1>
-            <h2>A way to download Subtitles faster than you think. Works on OS X.</h2>
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-      </header>
+		<!-- Custom Fonts -->
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-      <section id="downloads">
-        <span class="inner">
-          <a href="https://github.com/bk2dcradle/Sub-Downloader/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/bk2dcradle/Sub-Downloader/tarball/master" class="tgz"><em>download</em> .TGZ</a>
-        </span>
-      </section>
+		<!-- Include modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+	</head>
+	<body>
+		<!-- Begin Navbar stuff -->
+		<nav class="navbar navbar-default navbar-static-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="http://bk2dcradle.github.io/Blog/">Sub-Downloader</a>
+				</div><!-- end navbar-header -->
 
-
-      <span class="banner-fix"></span>
-
-
-      <section id="main_content">
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Download Subtitles in 2 clicks</h3>
-
-<p>
-Sub-Downloader is a Mac OS X <code>service</code> by means of which you can download subtitles just by right clicking on a video file and going to <code>services</code> and then <code>Get Subtitles</code>.
-Subtitles will be downloaded subject to their availabity on <a href="http://thesubdb.com/">thesubdb</a>, since the script uses its API.
-Final result is something like:
-</p>
-
-<iframe width="510" height="360" src="https://www.youtube.com/embed/liR8XFMTtA0" frameborder="0" allowfullscreen></iframe>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h3>
-
-<p>
-Refer to the <a href="http://github.com/bk2dcradle/Sub-Downloader">github</a> page
-</p>
-
-<h3>
-<a id="creating-pages-manually" class="anchor" href="#creating-pages-manually" aria-hidden="true"><span class="octicon octicon-link"></span></a>A look at the scripts</h3>
-
-<p>
-  The scripts used for downloading the subtitles are written in <strong>Python</strong>.
-  The script that is <i>called</i> by the <i>service</i> is <code>main_script.py</code>.
-  What this script does is take a path to a movie file as an argument and just download
-  the subtitles for that movie in the same directory in which it is located.
-  <code>meta_extract.py</code> simply extracts file name, extension and directory of
-  given file from its path. <code>hash_video</code> simply calls a hash function provided
-  by <strong><a href="http://thesubdb.com/">thesubdb</a></strong> whose <strong>API</strong>
-  the script uses.
-</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>
-  This project was created and is maintained by <a href="http://github.com/bk2dcradle">Ankit Sultana</a>
-</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Sub-Downloader? Create a new <a href="https://github.com/bk2dcradle/Sub-Downloader/issues">issue</a>. <a href="https://help.github.com/pages"></p>
-      </section>
-
-      <footer>
-        <span class="ribbon-outer">
-          <span class="ribbon-inner">
-          </span>
-          <span class="left-tail"></span>
-          <span class="right-tail"></span>
-        </span>
-        <a href="http://github.com/bk2dcradle/"><span class="octocat"></span></a>
-      </footer>
-    </div>
-
-  </body>
+				<div id="navbar" class="navbar-collapse collapse navbar-responsive-collapse">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="http://bk2dcradle.github.io/Blog/"><strong>Home</strong></a>
+						</li>
+						<li>
+							<a href="http://bk2dcradle.github.io/Blog/">Blog</a>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="http://bk2dcradle.github.io/">PortFolio</a>
+						</li>
+					</ul>
+				</div><!-- End navbar-responsive -->
+			</div><!-- End container -->
+		</nav><!-- End navbar -->
+		<div class="blog-header">
+			<div class="jumbotron">
+				<h1>Sub-Downloader</h1>
+				<p>A way to download subtitles faster than you think (Currently for OS X only)</p>
+			</div><!-- End jumbotron -->
+		</div><!-- End blog-header -->
+	</body>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-2">
+					<h6>Copylite &copy 2015</h6>
+				</div><!-- end col-sm-2 -->
+				<div class="col-sm-4">
+					<h6>About Me</h6>
+					<p>I am a Computer Science Student at BITS Pilani, currently in my second year. I spend most of my time learning about algorithms, and also regularly participate in Programming Competitions. I am also interested in Machine Learning. I like to do Python and have decent knowledge of Flask. I work completely out of self interest.</p>
+				</div><!-- end col-sm-4 -->
+				<div class="col-sm-2">
+					<h6>Navigation</h6>
+					<ul class="list-unstyled">
+						<li><a href="http://bk2dcradle.github.io/">Home</a></li>
+						<li><a href="http://bk2dcradle.github.io/Blog">Blog</a></li>
+						<li><a href="http://bk2dcradle.github.io/">PortFolio</a></li>
+						<li><a href="http://google.com/">Somewhere</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-2">
+					<h6>Follow Me</h6>
+					<ul class="list-unstyled">
+						<li><a href="http://facebook.com/ankitsultana10/">Facebook</a></li>
+						<li><a href="http://twitter.com/AnkitSultana/">Twitter</a></li>
+						<li><a href="http://github.com/bk2dcradle/">GitHub</a></li>
+						<li><a href="http://linkedin.com/">Linkedin</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-2">
+					<h6>Coded with <span class="glyphicon glyphicon-heart"></span> bootstrap</h6>
+				</div>
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</footer><!-- End footer -->
+	<!-- scripts sourced at the end for faster page loading -->
+	<script src="includes/js/jquery-1.11.3.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="includes/js/script.js"></script>
 </html>
