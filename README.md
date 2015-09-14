@@ -10,12 +10,12 @@ A great way to download Subtitles in just 3 clicks. After installing it you will
 ## Installation 
   1. First clone this repo in your **home directory**.
          
-            cd ~
-            git clone https://github.com/bk2dcradle/Sub-Downloader.git
+        cd ~
+        git clone https://github.com/bk2dcradle/Sub-Downloader.git
   
   2. Move the `Get Subtitles.workflow` folder.
   
-            mv ~/Sub-Downloader/Get\ Subtitles.workflow ~/Library/Services/
+        mv ~/Sub-Downloader/Get\ Subtitles.workflow ~/Library/Services/
   
   3. Done! Now test if the script is working by checking on a movie file **OR** if that doesn't work, confirm by downloading [Sample File from here](http://thesubdb.com/api/samples/dexter.mp4) (Right-Click then Save Video As).
   **Note**: To download Subtitles you should be able to right click and then click on either `Services => Get Subtitles` or `Get Subtitles`.
