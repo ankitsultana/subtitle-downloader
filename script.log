@@ -1,8 +1,0 @@
-__main__ - INFO - Trying Imports
-__main__ - INFO - Imported sys, os and re
-__main__ - INFO - Imported meta_extract, hash_video
-__main__ - INFO - Imported requests
-__main__ - INFO - Extracting Meta Data from File Name
-__main__ - INFO - Extracted Meta Data
-__main__ - INFO - 200
-__main__ - INFO - Subtitles Fetched
