@@ -1,4 +1,4 @@
-# Sub-Downloader for OS X
+# Sub-Downloader for OS X (Updating, Come back a bit later)
 
 **Last Update on 2 September 2015:** Added logging module to main_script, Now logs are written to script.log in the root Sub-Downloader directory.
 
