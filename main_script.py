@@ -18,7 +18,7 @@ logger.info(sys.version)
 
 logger.info('Trying Imports')
 
-PY_VERSION = sys.version_info[0]
+PythonVersion = sys.version_info[0]
 
 import os
 logger.info('Imported os')
@@ -34,12 +34,12 @@ except ImportError, e:
 
 try:
     logger.info("Trying to import urllib")
-    if PY_VERSION == 2:
+    if PythonVersion == 2:
         import urllib2
-        logger.info("PY_VERSION == 2: Importing urllib2: ")
-    elif PY_VERSION == 3:
+        logger.info("PythonVersion == 2: Importing urllib2: ")
+    elif PythonVersion == 3:
         import urllib.request
-        logger.info("PY_VERSION == 3: Importing urllib.request")
+        logger.info("PythonVersion == 3: Importing urllib.request")
 except Exception, e:
     logger.error("Cannot Import urllib")
     logger.exception(e)
@@ -77,11 +77,11 @@ if __name__ == '__main__':
     status_code = '404'
     # Send a get request
     try:
-        if PY_VERSION == 3:
+        if PythonVersion == 3:
             req = urllib.request.Request(full_url, None, headers)
             response = urllib.request.urlopen(req)
             status_code = response.getcode()
-        elif PY_VERSION == 2:
+        elif PythonVersion == 2:
             req = urllib2.Request(full_url, '', headers)
             response = urllib2.urlopen(req)
             status_code = response.getcode()
