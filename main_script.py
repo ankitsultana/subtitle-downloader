@@ -94,7 +94,11 @@ if __name__ == '__main__':
         logger.info('Subtitles Fetched')
         content = response.read()
         sub_name = open(file_name+'.srt', 'wb')
-        sub_name.write(content.encode('ascii', 'ignore'))
+        try:
+            sub_name.write(content.encode('ascii', 'ignore'))
+        except Exception, e:
+            logger.exception(e)
+            sub_name.write(content)
         sub_name.close()
     elif str(status_code) == '404':
         logger.error('Subtitles not available in Database')
