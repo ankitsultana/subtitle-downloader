@@ -2,6 +2,10 @@
    Custom 
    -------------------------------------- */
 
+.content-right{
+	margin-left: 10px;
+}
+
 .title-sub-title {
 	margin-top: 5px;  
 }
