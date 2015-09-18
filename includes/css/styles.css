@@ -2,6 +2,10 @@
    Custom 
    -------------------------------------- */
 
+.fb-button-container {
+	margin-top: 10px;  
+}
+
 .content-right{
 	margin-left: 10px;
 }
