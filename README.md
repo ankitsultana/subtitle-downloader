@@ -29,3 +29,7 @@ A great way to download Subtitles in just 3 clicks. After installing it you will
   
 ### 3. meta_extract.py
   Extract file name, directory and extension.
+  
+###License
+
+MIT. Copyright (c) [Ankit Sultana](http://twitter.com/AnkitSultana)
