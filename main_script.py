@@ -1,6 +1,7 @@
 # Logs stored in script.log
 import sys, os, logging
 
+logging.basicConfig(filename='script.log', filemode='w', level=logging.INFO)
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
@@ -12,7 +13,7 @@ handler.setFormatter(formatter)
 
 logger.addHandler(handler)
 
-logger.info('Sys Version: sys.version')
+logger.info('Sys Version:' +  sys.version)
 
 PythonVersion = sys.version_info[0]
 sys.dont_write_bytecode = True  # Who likes pyc files
@@ -88,10 +89,10 @@ if __name__ == '__main__':
         sub_name = open(file_name+'.srt', 'wb')
         try:
             sub_name.write(content.encode('ascii', 'ignore'))
-            notify.notify("Sub-Downloader: Success!", "Subtitles Found", "The subtitles are stored in a file named \"" + file_name + ".srt\"", delay=1, sound=True)
         except Exception, e:
             logger.exception(e)
             sub_name.write(content)
+        notify.notify("Sub-Downloader: Success!", "Subtitles Found", "The subtitles are stored in a file named \"" + file_name + ".srt\"", delay=1, sound=True)
         sub_name.close()
     elif str(status_code) == '404':
         notify.notify("Sub-Downloader: Error!", "Subtitle Not Found", "The subtitles for this file are not available in the database", delay=1, sound=True)
