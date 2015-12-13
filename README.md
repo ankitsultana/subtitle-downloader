@@ -4,7 +4,7 @@
 
 A great way to download Subtitles in just 3 clicks. After installing it you will be able to do something like this:
 
-![Screen Shot](https://raw.githubusercontent.com/bk2dcradle/Sub-Downloader/gh-pages/includes/images/SubtitleDownloaderScreenShot.png)
+![Screen Shot](https://raw.githubusercontent.com/bk2dcradle/Sub-Downloader/gh-pages/includes/images/SubDownloaderScreenShot.png)
     
 ## Installation 
   1. First clone this repo in your **home directory**. To do that, do this in terminal:
