@@ -15,4 +15,5 @@ def notify(title, subtitle, info_text, delay=0, sound=False, userInfo={}):
     NSUserNotificationCenter.defaultUserNotificationCenter().scheduleNotification_(notification)
 
 
-notify("Test message", "Subtitle", "This message should appear instantly, with a sound", delay=1000, sound=True)
+if __name__ == '__main__':
+    notify("Test message", "Subtitle", "This message should appear instantly, with a sound", delay=1000, sound=True)
