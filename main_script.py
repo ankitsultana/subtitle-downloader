@@ -96,13 +96,13 @@ if __name__ == '__main__':
         sub_name = open(file_name+'.srt', 'wb')
         try:
             sub_name.write(content.encode('ascii', 'ignore'))
-            notify("Sub-Downloader: Success!", "Subtitles Found", "The subtitles are stored in a file named " + file_name + ".srt", delay=1000, sound=True)
+            notify("Sub-Downloader: Success!", "Subtitles Found", "The subtitles are stored in a file named " + file_name + ".srt", delay=3, sound=True)
         except Exception, e:
             logger.exception(e)
             sub_name.write(content)
         sub_name.close()
     elif str(status_code) == '404':
-        notify("Sub-Downloader: Error!", "Subtitle Not Found", "The subtitles for this file are not available in the database", delay=1000, sound=True)
+        notify("Sub-Downloader: Error!", "Subtitle Not Found", "The subtitles for this file are not available in the database", delay=3, sound=True)
         logger.error('Subtitles not available in Database')
     else:
         logger.error('Bad Request!')
