@@ -1,5 +1,5 @@
 # Logs stored in script.log
-import logging
+import sys, os, logging
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
@@ -12,17 +12,9 @@ handler.setFormatter(formatter)
 
 logger.addHandler(handler)
 
-import sys
-
-logger.info(sys.version)
-
-logger.info('Trying Imports')
+logger.info('Sys Version: sys.version')
 
 PythonVersion = sys.version_info[0]
-
-import os
-logger.info('Imported os')
-
 sys.dont_write_bytecode = True  # Who likes pyc files
 
 # Import custom modules
@@ -96,7 +88,7 @@ if __name__ == '__main__':
         sub_name = open(file_name+'.srt', 'wb')
         try:
             sub_name.write(content.encode('ascii', 'ignore'))
-            notify.notify("Sub-Downloader: Success!", "Subtitles Found", "The subtitles are stored in a file named " + file_name + ".srt", delay=1, sound=True)
+            notify.notify("Sub-Downloader: Success!", "Subtitles Found", "The subtitles are stored in a file named \"" + file_name + ".srt\"", delay=1, sound=True)
         except Exception, e:
             logger.exception(e)
             sub_name.write(content)
