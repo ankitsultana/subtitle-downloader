@@ -1,14 +1,13 @@
 # Sub-Downloader for OS X
 
-**Last Update on 14 September 2015:** Removed requests, made installation really easy.
+**New in version 2:** Added notifications to prompt if Subtitles are downloaded or not.
 
 A great way to download Subtitles in just 3 clicks. After installing it you will be able to do something like this:
 
-    
-      https://www.youtube.com/watch?v=liR8XFMTtA0&feature=youtu.be
+![Screen Shot](https://raw.githubusercontent.com/bk2dcradle/Sub-Downloader/gh-pages/includes/images/SubtitleDownloaderScreenShot.png)
     
 ## Installation 
-  1. First clone this repo in your **home directory**.
+  1. First clone this repo in your **home directory**. To do that, do this in terminal:
          
         cd ~
         git clone https://github.com/bk2dcradle/Sub-Downloader.git
@@ -20,16 +19,15 @@ A great way to download Subtitles in just 3 clicks. After installing it you will
   3. Done! Now test if the script is working by checking on a movie file **OR** if that doesn't work, confirm by downloading [Sample File from here](http://thesubdb.com/api/samples/dexter.mp4) (Right-Click then Save Video As).
   **Note**: To download Subtitles you should be able to right click and then click on either `Services => Get Subtitles` or `Get Subtitles`.
 
-## Files and their Roles
-### 1. hash_video.py
-  Contains the algorithm to create the hash value for the movie file. Taken directly from [thesubdb](http://thesubdb.com/)
-  
-### 2. main_script.py
-  This is the script that is called while running the service. Other python scripts act as modules.
-  
-### 3. meta_extract.py
-  Extract file name, directory and extension.
-  
+# Remove Sub-Downloader
+
+Sub-Downloader only creates two directories, one is, `~/Sub-Downloader` and the other is `~/Library/Services/Get\ Subtitles.workflow`. Just remove both of them, and you are done!
+
+```bash
+rm -rf ~/Sub-Downloader
+rm -rf ~/Library/Services/Get\ Subtitles.workflow
+```
+
 ###License
 
 MIT. Copyright (c) [Ankit Sultana](http://twitter.com/AnkitSultana)
