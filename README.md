@@ -7,19 +7,20 @@ A great way to download Subtitles in just 3 clicks. After installing it you will
 ![Screen Shot](https://raw.githubusercontent.com/bk2dcradle/Sub-Downloader/gh-pages/includes/images/SubDownloaderScreenShot.png)
 
 ## Installation
-  1. Run the following command in terminal:
+1. Run the following command in terminal:
 
- ```bash
- git clone https://github.com/bk2dcradle/subtitle-downloader.git ~/.utilities/subtitles-downloader --branch master --single-branch
- ```
+```bash
+git clone https://github.com/bk2dcradle/subtitle-downloader.git ~/.utilities/subtitles-downloader --branch master --single-branch
+```
 
-  2. cp the `Get Subtitles.workflow` folder.
+2. cp the `Get Subtitles.workflow` folder.
 
 ```bash
 cp -r ~/.utilities/subtitle-downloader/Get\ Subtitles.workflow ~/Library/Services/
 ```
 
-  3. Done! Now test if the script is working by checking on a movie file **OR** if that doesn't work, confirm by downloading [Sample File from here](http://thesubdb.com/api/samples/dexter.mp4) (Right-Click then Save Video As).
+3. Done! Now test if the script is working by checking on a movie file **OR** if that doesn't work, confirm by downloading [Sample File from here](http://thesubdb.com/api/samples/dexter.mp4) (Right-Click then Save Video As).
+  
   **Note**: To download Subtitles you should be able to right click and then click on either `Services => Get Subtitles` or `Get Subtitles`.
 
 ## Uninstall
