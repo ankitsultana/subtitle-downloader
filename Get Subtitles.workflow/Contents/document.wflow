@@ -59,7 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>cd ~/.utilities/sub-downloader/lib
+					<string>cd ~/.utilities/subtitle-downloader/lib
 for f in "$@"
 do
 	python main_script.py "$f"
