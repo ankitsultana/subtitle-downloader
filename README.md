@@ -5,26 +5,29 @@
 A great way to download Subtitles in just 3 clicks. After installing it you will be able to do something like this:
 
 ![Screen Shot](https://raw.githubusercontent.com/bk2dcradle/Sub-Downloader/gh-pages/includes/images/SubDownloaderScreenShot.png)
-    
-## Installation 
-  1. First clone this repo in your **home directory**. To do that, do this in terminal:
-         
-        cd ~
-        git clone https://github.com/bk2dcradle/Sub-Downloader.git
-  
-  2. Move the `Get Subtitles.workflow` folder.
-  
-        mv ~/Sub-Downloader/Get\ Subtitles.workflow ~/Library/Services/
-  
+
+## Installation
+  1. Run the following command in terminal:
+
+ ```bash
+ git clone https://github.com/bk2dcradle/subtitle-downloader.git ~/.utilities/subtitles-downloader --branch master --single-branch
+ ```
+
+  2. cp the `Get Subtitles.workflow` folder.
+
+```bash
+cp -r ~/.utilities/subtitle-downloader/Get\ Subtitles.workflow ~/Library/Services/
+```
+
   3. Done! Now test if the script is working by checking on a movie file **OR** if that doesn't work, confirm by downloading [Sample File from here](http://thesubdb.com/api/samples/dexter.mp4) (Right-Click then Save Video As).
   **Note**: To download Subtitles you should be able to right click and then click on either `Services => Get Subtitles` or `Get Subtitles`.
 
 ## Uninstall
 
-Sub-Downloader only creates two directories, one is, `~/Sub-Downloader` and the other is `~/Library/Services/Get\ Subtitles.workflow`. Just remove both of them, and you are done!
+subtitle-downloader only touches two directories, one is `~/.utilites/subtitle-downloader` and the other is `~/Library/Services`. To uninstall, do this:
 
 ```bash
-rm -rf ~/Sub-Downloader
+rm -rf ~/.utilities/subtitle-downloader
 rm -rf ~/Library/Services/Get\ Subtitles.workflow
 ```
 
