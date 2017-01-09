@@ -60,7 +60,7 @@ if __name__ == '__main__':
         logger.error('Cannot Change Directory')
         logger.exception(e)
 
-    # Unique hash created using the algorithm provided by thesubdb 
+    # Unique hash created using the algorithm provided by thesubdb
     hash_name = str(hash_video.get_hash(file_name+exten))
 
     # Change User-Agent
@@ -92,10 +92,16 @@ if __name__ == '__main__':
         except Exception, e:
             logger.exception(e)
             sub_name.write(content)
-        notify.notify("Sub-Downloader: Success!", "Subtitles Found", "The subtitles are stored in a file named \"" + file_name + ".srt\"", delay=1, sound=True)
+        try:
+            notify.notify("Sub-Downloader: Success!", "Subtitles Found", "The subtitles are stored in a file named \"" + file_name + ".srt\"", delay=1, sound=True)
+        except Exception, e:
+            pass
         sub_name.close()
     elif str(status_code) == '404':
-        notify.notify("Sub-Downloader: Error!", "Subtitle Not Found", "The subtitles for this file are not available in the database", delay=1, sound=True)
+        try:
+            notify.notify("Sub-Downloader: Error!", "Subtitle Not Found", "The subtitles for this file are not available in the database", delay=1, sound=True)
+        except Exception, e:
+            pass
         logger.error('Subtitles not available in Database')
     else:
         logger.error('Bad Request!')
