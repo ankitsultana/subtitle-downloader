@@ -4,14 +4,14 @@
 
 A great way to download Subtitles in just 3 clicks. After installing it you will be able to do something like this:
 
-![Screen Shot](https://raw.githubusercontent.com/bk2dcradle/Sub-Downloader/gh-pages/includes/images/SubDownloaderScreenShot.png)
+![Screen Shot](https://raw.githubusercontent.com/ankitsultana/Sub-Downloader/gh-pages/includes/images/SubDownloaderScreenShot.png)
 
 ## Installation
 
 * Run the following command in terminal:
 
 ```bash
-git clone https://github.com/bk2dcradle/subtitle-downloader.git ~/.utilities/subtitle-downloader --branch master --single-branch
+git clone https://github.com/ankitsultana/subtitle-downloader.git ~/.utilities/subtitle-downloader --branch master --single-branch
 ```
 
 * cp the `Get Subtitles.workflow` folder.
