@@ -4,7 +4,7 @@
 
 A great way to download Subtitles in just 3 clicks. After installing it you will be able to do something like this:
 
-![Screen Shot](https://raw.githubusercontent.com/ankitsultana/Sub-Downloader/gh-pages/includes/images/SubDownloaderScreenShot.png)
+![Screen Shot](https://raw.githubusercontent.com/ankitsultana/subtitle-downloader/gh-pages/includes/images/SubDownloaderScreenShot.png)
 
 ## Installation
 
