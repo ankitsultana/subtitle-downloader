@@ -34,6 +34,6 @@ rm -rf ~/.utilities/subtitle-downloader
 rm -rf ~/Library/Services/Get\ Subtitles.workflow
 ```
 
-###License
+### License
 
 MIT. Copyright (c) [Ankit Sultana](http://twitter.com/AnkitSultana)
